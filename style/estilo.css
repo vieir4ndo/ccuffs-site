@@ -38,7 +38,7 @@ ul, li {
 }
 #cabecalho {
     text-align : left;
-    width: 40%;
+    width: 35%;
     display: block;
     float: left;
 }
@@ -90,7 +90,7 @@ nav {
     float: right;
 }
 nav a:link, nav a:visited{
-    font-size: 80%;
+    font-size: 90%;
     float : left;
     align: center;
     display : block;
@@ -101,6 +101,12 @@ nav a:link, nav a:visited{
     margin-bottom: 2%;
     margin-top: 3%;
     color: white;
+}
+.selected {
+    border: 1px solid #424242;
+    background-color: #424242;
+    border-radius: 3px;
+    font-size: 120%;
 }
 footer{
     padding-top: 4%;
@@ -114,7 +120,9 @@ h3 {
     text-align: center;
     color:white;
 }
-
+footer a {
+    text-decoration: none;
+}
 footer a img{
     padding-right: 1%;
     width: 38px;
