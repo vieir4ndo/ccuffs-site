@@ -620,5 +620,9 @@ a:focus {
   color: #fbfcfd;
 }
 
+.expand_section .detail-box  {
+  margin-top: 90px;
+}
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
