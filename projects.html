@@ -26,6 +26,10 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <!-- Adicione os estilos do Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -159,10 +163,10 @@
 <div class="modal fade" id="myModal">
   <div class="modal-dialog modal-dialog-centered modal-xl">
     <div class="modal-content bg-dark text-light">
-      <div class="modal-header">
-        <h4 class="modal-title">Construtora Viver S/A</h4>
+      <div class="modal-header border-0">
+        <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body border-0">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6">
@@ -194,19 +198,33 @@
             </div>
           </div>
           <div class="col-md-6 ">
-            <div class="jumbotron bg-dark ">
-              <h1 class="display-4">Descrição</h1>
-              <p class="lead">Aqui você pode adicionar sua descrição.</p>
+              <h2>Construtora Viver S/A</h2>
+              <p ><b>Description:</b> An administrative WEB API to manage the office of a fictitious construction company. Allows the user to
+              maintain workers, budget, and stock. It was firstly thought as a project for the object-oriented subject of the computer
+              science technician course, and later implemented as a way to gain knowledge.</p>
+              <p><b>Technologies:</b> C#, .NET and SQL Server.</p>
               <hr class="my-4">
-              <p>Você pode adicionar mais detalhes e informações aqui.</p>
-              <a class="btn btn-primary btn-lg" href="#" role="button">Saiba mais</a>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <a href="https://github.com/seu-usuario" class="btn btn-dark btn-block mb-2 text-left">
+                    <i class="fab fa-github"></i> GitHub Java Project </a>
+                  <a href="https://github.com/seu-usuario" class="btn btn-dark btn-block mb-2 text-left">
+                    <i class="fab fa-github"></i> GitHub Back-End Project </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="https://github.com/seu-usuario" class="btn btn-dark btn-block mb-2 text-left">
+                    <i class="fab fa-github"></i> GitHub Front-End Project </a>
+                  <a href="https://github.com/seu-usuario" class="btn btn-dark btn-block mb-2 text-left">
+                    <i class="fa fa-file"></i> Documentation </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      <div class="modal-footer border-0">
       </div>
     </div>
   </div>
@@ -224,6 +242,10 @@
       document.getElementById("myNav").style.width = "0%";
     }
   </script>
+
+  <!-- Adicione o Font Awesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+
 
 </body>
 
