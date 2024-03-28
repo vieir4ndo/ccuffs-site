@@ -634,5 +634,8 @@ a:focus {
   margin-top: 90px;
 }
 
+.modal {
+  z-index: 100000;
+}
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
