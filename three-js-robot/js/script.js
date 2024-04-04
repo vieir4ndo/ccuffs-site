@@ -34,7 +34,7 @@ loadingManager.onError = function (url) {
 };
 
 //#region STARS TEXTURE 2D
-const stars_texture = '../practica3/img/stars_texture.jpg'
+const stars_texture = '../three-js-robot/img/stars_texture.jpg'
 
 const stars = cubeTextureLoader.load([
     stars_texture,
@@ -47,7 +47,7 @@ const stars = cubeTextureLoader.load([
 //#endregion
 
 //#region METAL 006 TEXTURE 2D
-const metal_006_roughnessTexture = '../practica3/img/Metal_006_SD/Metal_006_roughness.jpg';
+const metal_006_roughnessTexture = '../three-js-robot/img/Metal_006_SD/Metal_006_roughness.jpg';
 
 const metal_006 = new THREE.MeshPhysicalMaterial({
     map: textureLoader.load(metal_006_roughnessTexture),
@@ -57,7 +57,7 @@ const metal_006 = new THREE.MeshPhysicalMaterial({
 //#endregion
 
 //#region METAL RUSTED TEXTURE 2D
-const metal_rusted_basecolor = '../practica3/img/Metal_Rusted_010_SD/Metal_Rusted_010_basecolor.jpg';
+const metal_rusted_basecolor = '../three-js-robot/img/Metal_Rusted_010_SD/Metal_Rusted_010_basecolor.jpg';
 
 const metal_rusted = new THREE.MeshPhysicalMaterial({
     map: textureLoader.load(metal_rusted_basecolor),
@@ -68,7 +68,7 @@ const metal_rusted = new THREE.MeshPhysicalMaterial({
 //#endregion
 
 //#region METAL 004 TEXTURE 2D
-const metal_004_basecolor = '../practica3/img/Sci_fi_Metal_Panel_004_SD/Sci_fi_Metal_Panel_004_basecolor.jpg';
+const metal_004_basecolor = '../three-js-robot/img/Sci_fi_Metal_Panel_004_SD/Sci_fi_Metal_Panel_004_basecolor.jpg';
 
 const metal_004 = new THREE.MeshPhysicalMaterial({
     map: textureLoader.load(metal_004_basecolor),
@@ -78,11 +78,11 @@ const metal_004 = new THREE.MeshPhysicalMaterial({
 //#endregion
 
 //#region METAL 002 TEXTURE 3D
-const metal_002_aoTexture = '../practica3/img/Sci-fi_Hose_002_SD/Sci-fi_Hose_002_ambientOcclusion.jpg';
-const metal_002_basecolor = '../practica3/img/Sci-fi_Hose_002_SD/Sci-fi_Hose_002_basecolor.jpg';
-const metal_002_metalnessTexture = '../practica3/img/Sci-fi_Hose_002_SD/Sci-fi_Hose_002_metallic.jpg';
-const metal_002_normalTexture = '../practica3/img/Sci-fi_Hose_002_SD/Sci-fi_Hose_002_normal.jpg';
-const metal_002_roughnessTexture = '../practica3/img/Sci-fi_Hose_002_SD/Sci-fi_Hose_002_roughness.jpg';
+const metal_002_aoTexture = '../three-js-robot/img/Sci-fi_Hose_002_SD/Sci-fi_Hose_002_ambientOcclusion.jpg';
+const metal_002_basecolor = '../three-js-robot/img/Sci-fi_Hose_002_SD/Sci-fi_Hose_002_basecolor.jpg';
+const metal_002_metalnessTexture = '../three-js-robot/img/Sci-fi_Hose_002_SD/Sci-fi_Hose_002_metallic.jpg';
+const metal_002_normalTexture = '../three-js-robot/img/Sci-fi_Hose_002_SD/Sci-fi_Hose_002_normal.jpg';
+const metal_002_roughnessTexture = '../three-js-robot/img/Sci-fi_Hose_002_SD/Sci-fi_Hose_002_roughness.jpg';
 
 const metal_002 = new THREE.MeshPhysicalMaterial({
     aoMap: textureLoader.load(metal_002_aoTexture),
@@ -95,7 +95,7 @@ const metal_002 = new THREE.MeshPhysicalMaterial({
 //#endregion
 
 //#region GLASS TEXTURE 2D
-const glass_basecolor = '../practica3/img/Glass_Vintage_001_basecolor.jpg';
+const glass_basecolor = '../three-js-robot/img/Glass_Vintage_001_basecolor.jpg';
 
 const green_glass = new THREE.MeshPhongMaterial({
     map: textureLoader.load(glass_basecolor),
@@ -116,7 +116,7 @@ const red_glass = new THREE.MeshPhongMaterial({
 //#endregion
 
 //#region MOON TEXTURE 2D
-const moon_texture = '../practica3/img/moon_texture.jpg';
+const moon_texture = '../three-js-robot/img/moon_texture.jpg';
 const moon = new THREE.MeshStandardMaterial({
     map: textureLoader.load(moon_texture),
     side: THREE.DoubleSide
@@ -124,7 +124,7 @@ const moon = new THREE.MeshStandardMaterial({
 //#endregion
 
 //#region RUBBER TEXTURE 2D
-const rubber_texture = '../practica3/img/rubber_texture.avif';
+const rubber_texture = '../three-js-robot/img/rubber_texture.avif';
 const rubber = new THREE.MeshStandardMaterial({
     map: textureLoader.load(rubber_texture),
     side: THREE.DoubleSide
